@@ -1,7 +1,16 @@
 
+.main-image{
+    position: relative;
+}
 
-* {
-    /* outline: 1px solid red; */
+.text-block{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: transparent;
+    color: rgb(46, 48, 52);
+    font-family: 'Brush Script MT' ;
+    font-size: x-large;
 }
 
 body {
@@ -20,14 +29,16 @@ nav a {
 }
 
 .promo-div {
-    background: blue;
+    background: gray;
     color: white;
     height: 40px;
     text-align: center;
+    font-family: 'Brush Script MT' ;
+    font-size: x-large;
 }
 
 .main-image {
-    height: 500px;
+    height: 700px;
     background: red;
 }
 
@@ -46,6 +57,7 @@ nav a {
 .product-categories div {
     display: inline-block;
     height: 100px;
+    padding-left: 50px;
 }
 
 
@@ -58,4 +70,10 @@ nav a {
 .service-cards div img{
     width: 100%;
     height: 200px;
+}
+
+.logo img{
+    float: left;
+    width: 120px;
+    height: 35px;
 }
